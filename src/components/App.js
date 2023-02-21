@@ -1,13 +1,16 @@
-import '../styling/app.css';
+import React from "react";
+import "../styling/app.css";
+import NavBar from "./NavBar";
 
-function App() {
-  
-  return(
-   <div className="Surreal Estate">
+const App = () => {
+  return (
+    <div className="App">
       <h2> Surreal Estate </h2>
-    </div>  
+      <div>
+        <NavBar />
+      </div>
+    </div>
   );
-      
-}
+};
 
 export default App;
